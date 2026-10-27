@@ -22,6 +22,6 @@ void main()
 
     if (d < min)
         min = d;
-    printf("Maximum = %d\n", max);
-    printf("Minimum = %d", min);
+    printf(" Maximum = %d, max);
+    printf("\nMinimum = %d", min);
 }
