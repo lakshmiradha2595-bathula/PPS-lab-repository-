@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-    int A, B, C, D, E, F, G, result;
-    printf("Enter A, B, C, D, E, F, G: ");
-    scanf("%d %d %d %d %d %d %d", &A, &B, &C, &D, &E, &F, &G);
-    result = A + B * C + (D * E) + F * G;
-    printf("Result = %d", result);
+    int a,b,c,d,e,f,g, res;
+    printf("Enter a,b,c,d,e,f,g: ");
+    scanf("%d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &g);
+    res= A + B * C + (D * E) + F * G;
+    printf("result = %d", res);
 }
