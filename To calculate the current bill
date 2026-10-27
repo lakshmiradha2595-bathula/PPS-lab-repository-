@@ -19,7 +19,7 @@ void main()
 if (units <= 200)
     {
         bill = units * 2.50;
-        printf("Electricity bill = Rs. %.2f", bill);
+        printf("Electricity bill = Rs. %.f", bill);
     }
     else 
     if (units <= 500)
@@ -30,6 +30,6 @@ if (units <= 200)
     else
     {
         bill = units * 6.00;
-        printf("Electricity bill = Rs. %.2f", bill);
+        printf("Electricity bill = Rs. %.3f", bill);
     }
 }
